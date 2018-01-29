@@ -1,0 +1,71 @@
+*{margin:0;padding: 0;list-style: none;text-decoration: none;}
+.content{background: #eeeeee;  border-bottom: 1px solid #dddddd;}
+.over{background: #eeeeee;}
+.head{width:1204px;height: 235px;background: #eeeeee;margin: 0 auto;}
+.head .service{width: 165px;height: 235px;background: #eeeeee;float: left;}
+.head .service ul li:nth-child(1){font-size: 12px;font-weight: 600;
+margin-top: 49px;margin-bottom: 22px;}
+.head .service ul li:nth-child(2){font-size: 18px;color: #cc5252;margin-bottom:8px ;}
+.head .service ul li:nth-child(3){font-size: 11px;color: #666666;margin-bottom:20px;}
+.head .service ul li:nth-child(4){width: 134px;height: 38px;
+border-radius:20px 20px 20px 20px;border: 1px solid #666;
+text-align: center;line-height: 38px;font-size: 11px;color:#666;display: block;}
+.head .service ul li a{color:#666;}
+
+.head .serve{width: 585px;height: 235px;background: #eeeeee;float: left;}
+.head .serve .serve_01{width: 585px;height:147px;background: #eeeeee;margin-top: 43px;border-right: 1px solid #dddddd;}
+.head .serve .serve_01 .guide{width:65px;height: 147px;margin-left: 44px;background: #eeeeee;float: left;}
+.head .serve .serve_01 .guide li:nth-child(1){font-size: 12px;font-weight: 600;
+color: #666666;margin-bottom:20px;}
+.head .serve .serve_01 .guide li{font-size: 11px;color:#999999;margin:9px 0px;text-align: center;}
+.head .serve .serve_01 .guide li a{color:#999999;}
+.head .serve .serve_01 .guide_1{width:80px;}
+
+.head .microblog{width: 454px;height: 235px;float: left;background:#eeeeee;}
+.head .microblog .microblog_01{width: 212px;height: 152px;background: #eeeeee;float: left;margin-top: 43px;}
+.head .microblog .microblog_01 .pic2{position: absolute;}
+.head .microblog .microblog_01 .pic3{position: absolute;}
+.head .microblog .microblog_01 .pic2{display: none}
+
+
+
+.head .microblog .microblog_01 span{display: inline-block;float: left;font-size: 11px;
+padding:0 6px;margin-left: 10px;margin-bottom: 9px;}
+.head .microblog .microblog_01 span:nth-child(1){border-bottom: 2px solid #666666;}
+.head .microblog .microblog_01 span:nth-child(1):hover{border-bottom: 2px solid #666666;}
+.head .microblog .microblog_01 span:nth-child(2){color:#666666;}
+.head .microblog .microblog_01 span:nth-child(2):hover{}
+.head .microblog .microblog_01 p{width: 211px;height: 94px;display: block;float: left;}
+.head .microblog .microblog_01 p img{width: 95px;height: 94px;margin-left: 60px;position: absolute;}
+
+.head .microblog .microblog_01 center{width: 211px;height: 26px;
+float: left;font-size: 11px;line-height: 26px;color: #999999;}
+
+
+.fine{width: 1204px;height:73px;background:#eeeeee; margin: 0 auto;}
+.fine ul li{float: left;line-height: 73px;padding: 0 12px;}
+.fine ul li:nth-child(1){margin-left: 180px;}
+.fine ul li a{color: #999999;font-size: 12px;}
+.fine ul li a:hover{color:#000000;}
+
+.certificate{width: 1204px;height: 235px;background:#eeeeee;margin: 0 auto;}
+
+.surface{width: 1204px;height: 40px;background:#eeeeee;margin: auto;}
+.surface li{text-align: center;font-size: 12px;color: #999999;padding-top: 28px;}
+.surface li b{font-weight:100;color:#666666 ;}
+
+.surface01{width: 1204px;height: 28px;background: #eeeeee;margin: auto;margin-top: 10px;}
+.surface01 li{text-align: center;line-height: 28px;font-size: 12px;color:#999999;}
+
+.surface02{width: 1204px;height: 32px;background: #eeeeee;margin: auto;}
+.surface02 li{text-align: center;line-height: 32px;font-size: 12px;color:#999999;}
+
+.surface03{width: 1204px;height: 75px;background:#eeeeee;margin: auto;}
+.surface03 a{padding: 0 10px;padding-top: 30px;display: block;float: left;}
+.surface03 a:nth-child(1){padding-left: 374px;}
+
+.surface04{width: 1204px;height: 50px;background:#eeeeee;margin: auto;}
+.surface04 li{font-size: 12px;color:#999999;float: left;margin-top: 10px;padding:0 13px}
+.surface04 li:nth-child(1){margin-left: 100px;}
+.surface04 li a{color: #999999;}
+.surface04 li a:hover{color:#000000;}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/header.min.css"/>
+		<script src ="../js/jquery-1.10.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="head_01">
+			<img src="../images/header-01.png"/>
+		</div>
+		
+		<div class="head_02">
+			<div class="weal">
+				<div class="weal_01">
+					<div><a href="#">买手表，上万表</a></div>
+					<div><a href="#">【福利】下载APP，送终身手表保养及鉴真服务</a></div>
+				</div>
+				<div class="weal_02">				
+						<div>登录</div>
+						<div>注册</div>
+						<div>我得订单</div>
+						<div>手机万表&nbsp;&nbsp;办理信用卡&nbsp;&nbsp;服务专线</div>
+						<div>ENGLISH</div>					
+				</div>
+				
+				
+			</div>
+		</div>
+	</body>
+</html>
+
+
+					<div class="tudor_li ">
+						<div class="tudor_li1">
+							<div class="tudor_li01">
+								<img src="${res[i].img4}"/>
+							</div>
+							<div class="tudor_li02">
+								<img src="${res[i].img5}"/>
+							</div>
+						</div>
+						<div class="tudor_li2">
+							<div class="tudor_li03">
+								<img src="${res[i].img6}"/>
+							</div>
+							<div class="tudor_li04">
+								<img src="${res[i].img7}"/>
+							</div>
+							<div class="tudor_li05">
+								<img src="${res[i].img8}"/>
+							</div>
+							<div class="tudor_li06">
+								<img src="${res[i].img9}"/>
+							</div>
+							<div class="tudor_li07">
+								<img src=""/>
+							</div>
+							<div class="tudor_li08">
+								<img src=""/>
+							</div>
+						</div>
+					</div>
+					
+
+
+
+
+
+
+
+
+					<div class="tudor_shop1">
+						<div class="tudor_Simg">
+							<img src="${res[i].img16}"/>
+						</div>
+						<p>￥21,320</p>
+						<span>${res[i].id2}</span>
+						<ul>
+							<li>加入收藏</li>
+							<li>加入购物车</li>
+						</ul>
+					</div>
+					<div class="tudor_shop1">
+						<div class="tudor_Simg">
+							<img src="${res[i].img17}"/>
+						</div>
+						<p>￥28,370</p>
+						<span>${res[i].id3}</span>
+						<ul>
+							<li>加入收藏</li>
+							<li>加入购物车</li>
+						</ul>
+					</div>
+					<div class="tudor_shop1">
+						<div class="tudor_Simg">
+							<img src="${res[i].img18}"/>
+						</div>
+						<p>￥15,580</p>
+						<span>${res[i].id4}</span>
+						<ul>
+							<li>加入收藏</li>
+							<li>加入购物车</li>
+						</ul>
+						</div>
+				</div>
+				
+
+
+
+
+
+
+				for(var j = 0; j < ras.length;j++){
+					
+					
+					html += `
+						<div class="tudor_banner06">
+							<a href="#">
+								<img src=""/>
+							</a>
+						</div>
+				`
+				}
+			
+				$(".tudor_banner05").html(html);
